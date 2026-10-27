@@ -1,6 +1,5 @@
 # AI Customer Support Agent with Strands & Amazon Bedrock AgentCore
 
-*Project from the Udacity Future AWS Agent Engineer program (TODO Cindy: confirm).*
 
 ## Summary
 A customer-support AI agent built with the Strands Agents SDK and deployed on Amazon Bedrock AgentCore Runtime. The agent decides which capability fits each customer request:
@@ -22,7 +21,7 @@ export GATEWAY_URL=<YOUR_GATEWAY_URL> KB_ID=<YOUR_KNOWLEDGE_BASE_ID> MEMORY_ID=<
 agentcore deploy
 agentcore invoke '{"prompt": "Can you track order ORD-001?", "customer_id": "CUST-123", "session_id": "t1"}'
 ```
-The model is `global.amazon.nova-2-lite-v1:0` in us-east-1. TODO Cindy: confirm the package versions you used.
+The model is `global.amazon.nova-2-lite-v1:0` in us-east-1.
 
 ## Test scenarios covered
 Order tracking, refund, knowledge-base answer, saving and recalling memory, loyalty calculation (Code Interpreter), and browser use.
