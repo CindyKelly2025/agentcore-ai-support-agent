@@ -1,0 +1,13 @@
+.env
+*.env
+.aws/
+credentials
+*.pem
+__pycache__/
+*.pyc
+.venv/
+.bedrock_agentcore.yaml
+.bedrock_agentcore/
+results/
+*.docx
+.DS_Store
